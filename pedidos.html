@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" contest= "ie=edge">
+        <meta name="viewport" content="windth=device-width, initial-scale=1.0">
+        <title>Panaderia doña carmelita</title>
+        <link rel="stylesheet" href="static/css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="estilos.css">
+        
+    </head>
+    <body>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <a class="navbar-brand  text-white">
+          <img src="static\img\PANADERIALOGOBLANCO.png">
+            
+        </a>
+        <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+              <ul class="navbar-nav mr-auto">
+                 
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Inicio</a>
+                </li>
+                  <li class="nav-item active">
+                      <a href="#" class="nav-link">Pedidos</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+        Pedidos
+<div  class="container-pedidos">
+  <form class="row g-3">
+    <div class="mb-3">
+      <label for="txt-nombre" class="form-label">Nombre Completo</label>
+      <input type="text" class="form-control" id="txt-nombre" placeholder="nombre">
+    </div>
+    <div class="container-fluid">
+    <div class="mb-3">
+      <label for="txt-direccion" class="form-label">Dirección</label>
+      <input type="text" class="form-control" id="txt-direccion" placeholder="direccion">
+    </div>
+    <div class="mb-3">
+      <label for="txt-correo" class="form-label">Email</label>
+      <input type="text" class="form-control" id="txt-correo" placeholder="correo">
+    </div>
+  
+  <div class="mb-3">
+      <label for="txt-telefono" class="form-label">Telefono</label>
+      <input type="text" class="form-control" id="txt-apellidomaterno" placeholder="telefono">
+    </div>
+    <div class="mb-3">
+      <label for="txt-asunto" class="form-label">Asunto</label>
+      <textarea class="form-control" id="txt-asunto" rows="3"></textarea>
+    </div>
+    <div class="mb-3">
+  <input type="button" class="form-control btn btn-primary" id="btn" value="enviar"
+  onclick="enviar()">
+ </div>
+  </form>
+</div>
+   
+    <script src="static/js/jquery/jquery-3.6.0min.js"></script>
+    <script src="static/js/popper/popper.min.js"></script>
+    <script src="static/js/bootstrap"></script>
+    <script src="static/js/custom form/form-envia.js"></script>
+
+    </body>
+</html>

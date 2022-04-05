@@ -1,0 +1,24 @@
+*
+ {
+-webkit-box-sizing:border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body 
+{ 
+    color:aliceblue;
+    background-image: url(static/img/panintegral.jpg); 
+    background-size:100% ;              
+}
+.contenedor
+{
+    color:aliceblue
+}
+
+.container-pedidos
+{
+    width:75%; margin:0 auto;
+    justify-content: center;
+    font-size:large;
+}
