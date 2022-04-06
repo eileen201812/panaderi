@@ -22,3 +22,47 @@ body
     justify-content: center;
     font-size:large;
 }
+.pie-pagina{
+    width:100%;
+    background-color:black;
+     
+}
+.grupo-1{
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box figure img{
+    width: 200px;
+}
+h2{
+    color:aliceblue;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+p {
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.red-social{
+     display:inline-block;
+     text-decoration:none;
+     
+     
+     
+}
